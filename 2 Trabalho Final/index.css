@@ -1,0 +1,238 @@
+/** Tags */
+body {
+    background-attachment: fixed;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnh6Smg8C5KOjybPnzWHy6kXxdXPAhs6UMHw&s);   
+    background-size: cover;
+    margin: 0px;
+    
+}
+
+header {
+    background-color: white;
+    display: flex;
+    overflow: visible;
+    z-index: 1;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+}
+
+html {
+    color: rgb(25, 25, 25);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 18px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 154px;
+    width: 80%;
+}
+
+
+/** Classes */
+
+.post-avatar {
+    border-radius: 100%;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: cover;
+    width: 100px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-button {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    height: 30px;
+    margin: 8px;
+    width: 30px;
+} 
+
+.like-button img {
+    height: 30px;
+    object-fit: cover;
+    width: 30px;
+}
+
+.like-number {
+    display: inline-block;
+    height: 1.2rem;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2rem;
+    margin-top: 2px;
+}
+
+/* Parágrafo intermediário que ocupa todo o espaço diponível a fim de 
+dar um espaço entre a data e o botão de likes */
+.middle {
+    flex-basis: 100%;
+}
+
+.post {
+    border-top: solid 3px rgb(180, 180, 180);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 95%;
+}
+
+.post-top {
+    display: flex;
+    align-items: center;
+}
+
+
+.post-date {
+    display: inline-block;
+    flex-basis: 30%;
+    height: 1.2rem;
+    margin: 5px;
+}
+
+.post-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    object-fit: cover;
+    max-width: 100px;
+    min-width: 600px;
+}
+
+.post-userName {
+    display: inline-block;
+    height: 1.2rem;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+/** ID's */
+#avatar-field {
+    margin-bottom: 0px;
+}
+
+#avatar-field, #post-field, #username-field {
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    border-style: hidden;
+    display: block;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+#new-post {
+    height: 154px;
+    width: 40%;
+}
+
+#new-post p, #user-options p{
+    display: inline-block;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+#post-button, #saveUser-button {
+    background-color: #00ee47;
+    border-radius: 19px;
+    border-style: hidden;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 8px;
+    padding: 6px;
+}
+
+#post-button:hover, #saveUser-button:hover {
+    background-color: #6abb5f;
+}
+
+#post-field {
+    margin-bottom: 10px;
+    resize: none;
+}
+
+#profile-avatar {
+    border-color: #00ee47;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 3px;
+    height: 134px;
+    margin: auto;
+    object-fit: cover;
+    width: 134px;
+}
+
+#profile-userName {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-wrap: wrap;
+    max-width: 64%;
+}
+
+#saveUser-button {
+    margin-top: 0px;
+}
+
+#username-field {
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+
+#user-options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: auto;
+    width: 30%;
+}
+#user-profile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 18px;
+    height: 144px;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: auto;
+    width: 20%;
+}
+
+#user-profile p {
+    height: 1rem;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
