@@ -1,0 +1,121 @@
+/** Regras de containers estão organizadas de acordo com o DOM*/
+/** Regras de tags, classes e ID's estão organizadas em ordem alfabética,*/
+    /** sendo que elas estão separadas pelo tipo de seletor*/
+
+
+/* Containers */
+html {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color:rgb(40, 40, 40);
+    color: white;
+    text-align: center; 
+    width: 100%;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 85%;
+}
+
+
+/* Tags */
+
+button {
+    border-radius: 10px;
+    border-style: hidden;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    height: 1.6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 10px; 
+}
+
+
+/* Classes */
+
+.botao-apagar {
+    background-color: rgb(255, 35, 35);
+    cursor: pointer;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.botao-apagar:hover {
+    background-color: rgb(201, 30, 30);
+}
+
+.tarefa {
+    background-color: rgb(60, 60, 60);
+    color: rgb(220, 220, 220);
+}
+
+.tarefa, .tarefa-concluida{
+    border-color: rgb(150, 150, 150);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 70%;
+}
+
+.tarefa-concluida {
+    background-color: rgb(55, 94, 55);
+}
+
+.tarefa-concluida > p {
+    text-decoration: line-through;
+}
+
+
+/* ID's */
+#botao-adicionar {
+    background-color: green;
+}
+
+#botao-adicionar:hover {
+    background-color: rgb(0, 80, 0);
+    cursor: pointer;
+}
+
+#campo-descricao {
+    background-color: rgb(230, 230, 230);
+    border-color:rgb(150, 150, 150);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 16px;
+    height: 1.5rem;
+    margin-bottom: 15px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 500px;
+}
+
+#div-tarefas input, #div-tarefas p {
+    margin: 10px;
+}
